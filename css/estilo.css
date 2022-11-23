@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #671833 url(../imagens/fundo.png) repeat-x;
+}
+
+#principal{
+	width: 950px;
+	margin: 0 auto;/*centrailiza no meio*/
+	/*border: 1px solid red;	*/
+}
+
+#topo{
+	/*border: 1px solid orange;	*/
+	margin-top: 15px;
+	height: 133px;
+}
+
+#topo #botao ul{
+	margin-top: 15px;
+	margin-left: 36.3%;	/*MOVIMENTA O FLOAT DA ESQUERDA PARA A DIREITA*/
+	background:  #671833;
+	float: left;
+	border-radius: 12px;
+}
+
+#topo #botao li{
+	float: left;
+}
+
+#topo #botao ul a{
+	font-size: 0.9em;
+	display: block; /*MUDA A FORMATAÇÃO DO LINK DE INLINE PARA BLOCK*/
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	color: #fff;
+	border-radius: 20px;  /*ARREDONDA A BORDA EM 20PX*/
+}
+
+
+#topo #botao #grupo{
+	background: url(../imagens/divisor.png) no-repeat right;
+}
+
+#topo #botao #jogos{
+	background: url(../imagens/divisor.png) no-repeat right;
+}
+
+#topo #botao a:hover{
+	background: #A4194A;
+}
+
+
+/*centro*/
+
+#tabela{
+	margin-top: 130px;
+	margin-left: 225px;
+}
+
+#tabela th{
+	line-height: 40px;
+	margin-left: 500px;
+	color: white;
+}
+
+#tabela td{
+	line-height: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	color: white;
+	border-bottom:1px solid white; 
+	font-size: 0.9em; 
+}
+
+#tabela .escuro{
+	background: #84143B;
+}
+
+#tabela .rosa{
+	background: #A4194A;
+}
+
+#tabela .roxo-topo{
+	background: #4A1125;
+
+}
+
+#tabela table{
+	border-collapse: collapse;
+	width: 495px;
+	height: 250px;
+}
+
+#tabela tr:hover{
+	background-color: #f473a0;
+}
